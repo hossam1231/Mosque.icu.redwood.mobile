@@ -3,8 +3,8 @@ import { Text, View, StyleSheet } from "react-native";
 import Constants from "expo-constants";
 import LoadURL from "./LoadUrl";
 
-const url = "http://localhost:8910/";
-// const url = web.mosque;r
+// const url = "http://localhost:8910/";
+const url = "https://web.mosque.icu";
 
 export default function App() {
   return (
@@ -18,7 +18,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     justifyContent: "center",
-    // paddingTop: Constants.statusBarHeight,
-    // padding: 8,
   },
 });
